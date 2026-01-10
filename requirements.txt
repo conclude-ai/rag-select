@@ -1,0 +1,9 @@
+langchain==0.3.27
+langchain-openai==0.3.10
+langchain-core>=0.3.48,<1.0.0
+
+pydantic>=2,<3
+numpy==1.26.0
+
+langchain-text-splitters==0.3.11
+sentence-transformers
