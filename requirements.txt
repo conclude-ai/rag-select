@@ -3,7 +3,9 @@ langchain-openai==0.3.10
 langchain-core>=0.3.48,<1.0.0
 
 pydantic>=2,<3
-numpy==1.26.0
+numpy==2.4.1
 
 langchain-text-splitters==0.3.11
 sentence-transformers
+
+faiss-cpu==1.13.2
