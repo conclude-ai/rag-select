@@ -1,4 +1,4 @@
-# RAG-search
+# RAG-select
 
 A framework for experimenting with and optimizing Retrieval-Augmented Generation (RAG) pipeline architectures.
 
@@ -23,7 +23,7 @@ cd rag_package
 
 # Install in development mode
 pip install -r requirements.txt
-pip install -e src/rag_search
+pip install -e src/rag_select
 ```
 
 ## License
