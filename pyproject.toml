@@ -21,7 +21,11 @@ classifiers = [
 ]
 
 [tool.setuptools]
-packages = ["rag_search"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rag_search*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
